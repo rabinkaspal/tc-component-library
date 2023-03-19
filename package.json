@@ -3,7 +3,7 @@
     "publishConfig": {
         "registry": "https://npm.pkg.github.com/tc-component-library"
     },
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "A React component library Demo for TC",
     "scripts": {
         "rollup": "rollup -c",
