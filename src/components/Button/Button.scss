@@ -1,3 +1,30 @@
-button {
-  font-size: 60px;
+.tc-button {
+    font-weight: 500;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+}
+.tc-button--primary {
+    color: white;
+    background-color: #ff8608;
+}
+.tc-button--secondary {
+    color: #3c9eff;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.tc-button--small {
+    font-size: 12px;
+    padding: 8px 10px;
+}
+.tc-button--medium {
+    font-size: 14px;
+    padding: 9px 16px;
+}
+.tc-button--large {
+    font-size: 16px;
+    padding: 9px 16px;
 }
